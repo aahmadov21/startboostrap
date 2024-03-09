@@ -1,13 +1,64 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-
-a {
-  color: orange;
+body .imgbox img {
+  width: 100%;
 }
 
-a:hover {
-  color: black;
+header {
+  padding: 30px 0;
+  background-image: url("assets/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
-/*# sourceMappingURL=style.css.map */
+header .imgbox {
+  width: 190px;
+  height: 25px;
+}
+header .imgbox:hover {
+  cursor: pointer;
+}
+header nav a {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  margin-right: 20px;
+}
+header nav a:hover {
+  color: #ffc800;
+  cursor: pointer;
+}
+header .textbox {
+  padding: 130px 0;
+}
+header .textbox h2 {
+  font-size: 45px;
+  font-style: italic;
+  color: white;
+}
+header .textbox h1 {
+  font-size: 85px;
+  font-weight: 600;
+  margin: 30px 0;
+  color: white;
+}
+header .textbox .btn {
+  margin-top: 30px;
+  width: 220px;
+  height: 70px;
+  background-color: rgba(247, 214, 0, 0.9803921569);
+  color: white;
+  padding: 17px 0;
+}
+header .textbox .btn:hover {
+  background-color: #ffc800;
+  color: white;
+}
+header .textbox .btn h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+header .textbox .btn h3:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
