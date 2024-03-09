@@ -5,6 +5,9 @@ body {
 body .imgbox img {
   width: 100%;
 }
+body section {
+  padding: 50px 0;
+}
 
 header {
   padding: 30px 0;
@@ -61,4 +64,48 @@ header .textbox .btn h3 {
 }
 header .textbox .btn h3:hover {
   cursor: pointer;
+}
+
+#services {
+  padding: 100px 0;
+}
+#services .textbox {
+  width: 300px;
+}
+#services .textbox h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#services .textbox h3 {
+  font-size: 18px;
+  margin-bottom: 50px;
+  font-style: italic;
+  color: #b5adad;
+}
+#services .box {
+  text-align: center;
+}
+#services .box h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 12px 0 18px;
+}
+#services .box p {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #6d757d;
+}
+#services .box .icon {
+  background-color: #ffc800;
+  border-radius: 50%;
+  padding: 30px 0;
+  width: 130px;
+  height: 130px;
+  margin: auto;
+}
+#services .box .icon i {
+  width: 77px;
+  height: 70px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
