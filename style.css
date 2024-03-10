@@ -228,4 +228,8 @@ header .textbox .btn h3:hover {
   color: #b5adad;
   margin-top: 50px;
   max-width: 1000px;
+}
+
+#logos .imgbox {
+  width: auto;
 }/*# sourceMappingURL=style.css.map */
