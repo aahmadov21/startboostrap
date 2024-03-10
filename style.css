@@ -277,4 +277,35 @@ header .textbox .btn h3:hover {
 #contactus .btn h4 {
   font-weight: 600;
   font-size: 20px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer h1 {
+  font-size: 18px;
+  cursor: text;
+}
+footer .icon {
+  display: inline-block;
+  background-color: #212529;
+  border-radius: 50%;
+  color: white;
+  padding: 13px;
+  width: 40px;
+  height: 40px;
+  margin: 0 9px;
+}
+footer .icon:hover {
+  cursor: pointer;
+  background-color: rgba(33, 37, 41, 0.8392156863);
+}
+footer .icon i:hover {
+  cursor: pointer;
+}
+footer h2 {
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
