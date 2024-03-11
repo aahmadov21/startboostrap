@@ -171,6 +171,94 @@ header .textbox .btn h3:hover {
   cursor: pointer;
 }
 
+#about {
+  padding: 100px 0;
+}
+#about h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#about h3 {
+  font-size: 19px;
+  margin-bottom: 60px;
+  font-style: italic;
+  color: #b5adad;
+}
+#about h2, #about h4 {
+  margin-bottom: 10px;
+}
+#about h2 {
+  font-weight: 600;
+  font-size: 28px;
+}
+#about h4 {
+  font-weight: 600;
+  font-size: 27px;
+}
+#about p {
+  font-size: 19px;
+  color: #b5adad;
+  line-height: 1.4;
+}
+#about .timeline:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: #e9ecef;
+}
+#about ul {
+  list-style: none;
+  position: relative;
+}
+#about ul li {
+  position: relative;
+  margin-bottom: 100px;
+  min-height: 170px;
+}
+#about ul li:after, #about ul li:before {
+  display: table;
+  content: " ";
+}
+#about ul li:after {
+  clear: both;
+}
+#about .text-md-end {
+  position: relative;
+  width: 41%;
+  float: left;
+  padding: 0 20px 20px 100px;
+}
+#about .text-md-start {
+  position: relative;
+  width: 41%;
+  float: right;
+  padding: 0 100px 20px 20px;
+}
+#about .imgbox {
+  background-color: #ffc800;
+  color: white;
+  text-align: center;
+  margin-left: -85px;
+  position: absolute;
+  left: 50%;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 170px;
+  height: 170px;
+}
+#about .imgbox h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 38px 40px;
+}
+
 #amazingteam {
   padding: 80px 0;
   background-color: #f8f9fa;
