@@ -16,20 +16,26 @@ header {
   background-size: cover;
   background-position: center;
 }
-header .imgbox {
-  width: 190px;
-  height: 25px;
+header .menu {
+  backround-color: #212529;
 }
-header .imgbox:hover {
+header .menu .imgbox {
+  width: 190px;
+  height: 36px;
+  padding: 2px 0;
   cursor: pointer;
 }
-header nav a {
-  display: inline-block;
-  font-size: 20px;
-  color: white;
-  margin-right: 20px;
+header .menu .imgbox img {
+  cursor: pointer;
 }
-header nav a:hover {
+header .menu nav a {
+  padding: 7px 10px;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  margin-right: 15px;
+}
+header .menu nav a:hover {
   color: #ffc800;
   cursor: pointer;
 }
@@ -51,12 +57,12 @@ header .textbox .btn {
   margin-top: 30px;
   width: 220px;
   height: 70px;
-  background-color: rgba(247, 214, 0, 0.9803921569);
+  background-color: #ffc800;
   color: white;
   padding: 17px 0;
 }
 header .textbox .btn:hover {
-  background-color: #ffc800;
+  background-color: #d0a300;
   color: white;
 }
 header .textbox .btn h3 {
@@ -68,18 +74,18 @@ header .textbox .btn h3:hover {
 }
 
 #services {
-  padding: 100px 0;
+  padding: 90px 0;
 }
 #services .textbox h1 {
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 42px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 #services .textbox h3 {
   font-size: 20px;
   margin-bottom: 50px;
   font-style: italic;
-  color: #b5adad;
+  color: #6c757d;
 }
 #services .box {
   text-align: center;
@@ -92,7 +98,8 @@ header .textbox .btn h3:hover {
 #services .box p {
   font-size: 20px;
   line-height: 1.4;
-  color: #6d757d;
+  color: #6c757d;
+  margin-bottom: 40px;
 }
 #services .box .icon {
   background-color: #ffc800;
@@ -118,15 +125,15 @@ header .textbox .btn h3:hover {
   margin: auto;
 }
 #portfolio .textbox h1 {
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 42px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 #portfolio .textbox h4 {
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 50px;
   font-style: italic;
-  color: #b5adad;
+  color: #6c757d;
 }
 #portfolio .box {
   background-color: white;
@@ -142,8 +149,8 @@ header .textbox .btn h3:hover {
 }
 #portfolio .box h3 {
   font-style: italic;
-  font-size: 20px;
-  color: #b5adad;
+  font-size: 19px;
+  color: #6c757d;
 }
 #portfolio .box .hover-content {
   display: flex;
@@ -175,15 +182,15 @@ header .textbox .btn h3:hover {
   padding: 100px 0;
 }
 #about h1 {
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 42px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 #about h3 {
   font-size: 19px;
   margin-bottom: 60px;
   font-style: italic;
-  color: #b5adad;
+  color: #6c757d;
 }
 #about h2, #about h4 {
   margin-bottom: 10px;
@@ -198,7 +205,7 @@ header .textbox .btn h3:hover {
 }
 #about p {
   font-size: 19px;
-  color: #b5adad;
+  color: #6c757d;
   line-height: 1.4;
 }
 #about .timeline:before {
@@ -214,11 +221,15 @@ header .textbox .btn h3:hover {
 #about ul {
   list-style: none;
   position: relative;
+  margin-bottom: 15px;
 }
 #about ul li {
   position: relative;
   margin-bottom: 100px;
   min-height: 170px;
+}
+#about ul .lastli {
+  margin-bottom: 0;
 }
 #about ul li:after, #about ul li:before {
   display: table;
@@ -260,7 +271,7 @@ header .textbox .btn h3:hover {
 }
 
 #amazingteam {
-  padding: 80px 0;
+  padding: 100px 0;
   background-color: #f8f9fa;
 }
 #amazingteam .textbox {
@@ -269,15 +280,15 @@ header .textbox .btn h3:hover {
   text-align: center;
 }
 #amazingteam .textbox h1 {
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 42px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 #amazingteam .textbox h4 {
   font-size: 20px;
   margin-bottom: 70px;
   font-style: italic;
-  color: #b5adad;
+  color: #6c757d;
 }
 #amazingteam .box .imgbox {
   width: 230px;
@@ -287,17 +298,15 @@ header .textbox .btn h3:hover {
   overflow: hidden;
   margin: auto;
 }
-#amazingteam .box h2, #amazingteam .box h3 {
-  margin: 10px 0;
-}
 #amazingteam .box h2 {
   font-size: 27px;
   font-weight: 600;
+  margin: 20px 0 0;
 }
 #amazingteam .box h3 {
-  font-size: 20px;
-  color: #b5adad;
-  margin-bottom: 20px;
+  font-size: 19px;
+  color: #6c757d;
+  margin: 10px 0 20px;
 }
 #amazingteam .box .iconbox {
   margin: auto;
@@ -320,10 +329,11 @@ header .textbox .btn h3:hover {
   cursor: pointer;
 }
 #amazingteam p {
-  font-size: 20px;
-  color: #b5adad;
+  font-size: 19px;
+  color: #6c757d;
   margin-top: 50px;
   max-width: 1000px;
+  line-height: 1.4;
 }
 
 #logos {
@@ -345,24 +355,39 @@ header .textbox .btn h3:hover {
   background-repeat: no-repeat;
 }
 #contactus .textbox h1 {
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 42px;
+  font-weight: 700;
   margin-bottom: 20px;
   color: white;
 }
 #contactus .textbox h2 {
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 60px;
   font-style: italic;
-  color: #b5adad;
+  color: #6c757d;
 }
 #contactus input {
-  height: 65px;
+  line-height: 1.5;
   margin-bottom: 25px;
+  border: 1px solid #ced4da;
+  padding: 20px;
+  font-size: 18px;
 }
 #contactus textarea {
   border-radius: 5px;
-  padding: 20px 15px;
+  border: 1px solid #ced4da;
+  padding: 20px;
+  font-size: 18px;
+}
+#contactus input::-moz-placeholder, #contactus textarea::-moz-placeholder {
+  font-size: 19px;
+  font-weight: 600;
+  color: #ced4da;
+}
+#contactus input::placeholder, #contactus textarea::placeholder {
+  font-size: 19px;
+  font-weight: 600;
+  color: #ced4da;
 }
 #contactus .btn {
   background-color: #ffc800;
@@ -380,10 +405,10 @@ footer {
   padding: 20px 0;
 }
 footer h1, footer h2 {
-  color: #666666;
+  color: rgba(33, 37, 41, 0.7019607843);
 }
 footer h1 {
-  font-size: 18px;
+  font-size: 17px;
   cursor: text;
 }
 footer .icon {
@@ -404,7 +429,7 @@ footer .icon i:hover {
   cursor: pointer;
 }
 footer h2 {
-  font-size: 18px;
+  font-size: 17px;
   display: inline-block;
   margin-right: 20px;
   cursor: pointer;
