@@ -11,47 +11,100 @@ body section {
 }
 
 header {
-  padding: 30px 0;
+  padding-bottom: 30px;
   background-image: url("assets/header-bg.jpg");
   background-size: cover;
   background-position: center;
 }
-header .menu {
-  backround-color: #212529;
+header .navbar {
+  padding: 30px 0;
 }
-header .menu .imgbox {
+@media (max-width: 991px) {
+  header .navbar {
+    padding: 15px 0;
+    background-color: #212529;
+  }
+}
+header .navbar .menu {
+  flex-basis: auto;
+  flex-grow: 1;
+}
+header .navbar .menu .btn {
+  border: 0.5px solid #545454;
+  border-radius: 6px;
+  padding: 11px 11px;
+  color: #9b9d9e;
+  font-size: 13px;
+  font-weight: 700;
+  display: none;
+}
+header .navbar .menu .btn .icon {
+  display: inline-block;
+  margin-left: 5px;
+}
+@media (max-width: 991px) {
+  header .navbar .menu .btn {
+    display: block;
+  }
+}
+header .navbar .menu .imgbox {
   width: 190px;
   height: 36px;
   padding: 2px 0;
   cursor: pointer;
 }
-header .menu .imgbox img {
+@media (max-width: 991px) {
+  header .navbar .menu .imgbox {
+    width: 140px;
+  }
+}
+header .navbar .menu .imgbox img {
   cursor: pointer;
 }
-header .menu nav a {
+@media (max-width: 991px) {
+  header .navbar .menu nav {
+    display: none;
+  }
+}
+header .navbar .menu nav a {
   padding: 7px 10px;
   display: inline-block;
   font-size: 18px;
   color: white;
   margin-right: 15px;
 }
-header .menu nav a:hover {
+header .navbar .menu nav a:hover {
   color: #ffc800;
   cursor: pointer;
 }
 header .textbox {
   padding: 130px 0;
 }
+@media (max-width: 765px) {
+  header .textbox {
+    padding: 105px 0 65px;
+  }
+}
 header .textbox h2 {
   font-size: 45px;
   font-style: italic;
   color: white;
+}
+@media (max-width: 765px) {
+  header .textbox h2 {
+    font-size: 30px;
+  }
 }
 header .textbox h1 {
   font-size: 85px;
   font-weight: 600;
   margin: 30px 0;
   color: white;
+}
+@media (max-width: 765px) {
+  header .textbox h1 {
+    font-size: 65px;
+  }
 }
 header .textbox .btn {
   margin-top: 30px;
@@ -60,6 +113,11 @@ header .textbox .btn {
   background-color: #ffc800;
   color: white;
   padding: 17px 0;
+}
+@media (max-width: 765px) {
+  header .textbox .btn {
+    margin-top: 0;
+  }
 }
 header .textbox .btn:hover {
   background-color: #d0a300;
