@@ -413,6 +413,11 @@ header .textbox .btn h3:hover {
   font-style: italic;
   color: #6c757d;
 }
+@media (max-width: 991px) {
+  #amazingteam .box {
+    margin: 25px 0;
+  }
+}
 #amazingteam .box .imgbox {
   width: 230px;
   height: 230px;
@@ -457,6 +462,11 @@ header .textbox .btn h3:hover {
   margin-top: 50px;
   max-width: 1000px;
   line-height: 1.4;
+}
+@media (max-width: 991px) {
+  #amazingteam p {
+    margin-top: 30px;
+  }
 }
 
 #logos {
