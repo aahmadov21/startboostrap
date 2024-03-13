@@ -279,6 +279,11 @@ header .textbox .btn h3:hover {
   content: "";
   background-color: #e9ecef;
 }
+@media (max-width: 768px) {
+  #about .timeline:before {
+    left: 40px;
+  }
+}
 #about ul {
   list-style: none;
   position: relative;
@@ -288,6 +293,17 @@ header .textbox .btn h3:hover {
   position: relative;
   margin-bottom: 100px;
   min-height: 170px;
+}
+@media (max-width: 992px) {
+  #about ul li {
+    min-height: 100px;
+  }
+}
+@media (max-width: 768px) {
+  #about ul li {
+    min-height: 50px;
+    margin-bottom: 50px;
+  }
 }
 #about ul .lastli {
   margin-bottom: 0;
@@ -299,17 +315,34 @@ header .textbox .btn h3:hover {
 #about ul li:after {
   clear: both;
 }
-#about .text-md-end {
+#about .end {
   position: relative;
   width: 41%;
   float: left;
   padding: 0 20px 20px 100px;
 }
-#about .text-md-start {
+@media (max-width: 992px) {
+  #about .end {
+    padding: 0 20px 20px 30px;
+  }
+}
+#about .start {
   position: relative;
   width: 41%;
   float: right;
   padding: 0 100px 20px 20px;
+}
+@media (max-width: 992px) {
+  #about .start {
+    padding: 0 30px 20px 20px;
+  }
+}
+@media (max-width: 768px) {
+  #about .end, #about .start {
+    padding: 0 20px 0 100px;
+    width: 100%;
+    text-align: left;
+  }
 }
 #about .imgbox {
   background-color: #ffc800;
@@ -324,11 +357,40 @@ header .textbox .btn h3:hover {
   width: 170px;
   height: 170px;
 }
+@media (max-width: 992px) {
+  #about .imgbox {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+}
+@media (max-width: 768px) {
+  #about .imgbox {
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+  }
+}
 #about .imgbox h5 {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   padding: 38px 40px;
+}
+@media (max-width: 992px) {
+  #about .imgbox h5 {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 768px) {
+  #about .imgbox h5 {
+    font-size: 10px;
+    line-height: 14px;
+    padding: 10px 15px;
+  }
 }
 
 #amazingteam {
