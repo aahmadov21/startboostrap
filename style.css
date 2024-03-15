@@ -23,16 +23,19 @@ header .navbar {
   header .navbar {
     padding: 15px 0;
     background-color: #212529;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 }
 header .navbar .menu {
-  flex-basis: auto;
   flex-grow: 1;
 }
 header .navbar .menu .btn {
   border: 0.5px solid #545454;
   border-radius: 6px;
-  padding: 11px 11px;
+  padding: 11px;
   color: #9b9d9e;
   font-size: 13px;
   font-weight: 700;
@@ -50,7 +53,6 @@ header .navbar .menu .btn .icon {
 header .navbar .menu .imgbox {
   width: 190px;
   height: 36px;
-  padding: 2px 0;
   cursor: pointer;
 }
 @media (max-width: 991px) {
@@ -78,11 +80,22 @@ header .navbar .menu nav a:hover {
   cursor: pointer;
 }
 header .textbox {
-  padding: 130px 0;
+  padding: 165px 0;
 }
 @media (max-width: 765px) {
   header .textbox {
     padding: 105px 0 65px;
+  }
+}
+header .textbox h1 {
+  font-size: 85px;
+  font-weight: 700;
+  margin: 30px 0;
+  color: white;
+}
+@media (max-width: 765px) {
+  header .textbox h1 {
+    font-size: 65px;
   }
 }
 header .textbox h2 {
@@ -93,17 +106,6 @@ header .textbox h2 {
 @media (max-width: 765px) {
   header .textbox h2 {
     font-size: 30px;
-  }
-}
-header .textbox h1 {
-  font-size: 85px;
-  font-weight: 600;
-  margin: 30px 0;
-  color: white;
-}
-@media (max-width: 765px) {
-  header .textbox h1 {
-    font-size: 65px;
   }
 }
 header .textbox .btn {
@@ -123,11 +125,11 @@ header .textbox .btn:hover {
   background-color: #d0a300;
   color: white;
 }
-header .textbox .btn h3 {
+header .textbox .btn h4 {
   font-size: 20px;
   font-weight: 600;
 }
-header .textbox .btn h3:hover {
+header .textbox .btn h4:hover {
   cursor: pointer;
 }
 
